@@ -34,3 +34,43 @@ body {
 #new-quote-btn:hover {
     background-color: #0056b3;
 }
+
+/*Content added for search tags functionality (from here to end)*/
+#search-container {
+    margin-top: 20px;
+}
+
+#tag-search-form {
+    display: flex;
+    justify-content: center;
+}
+
+#tag {
+    padding: 8px;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+}
+
+#tag::placeholder {
+    color: #999;
+}
+
+#tag:focus {
+    outline: none;
+}
+
+#tag-search-form button {
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#tag-search-form button:hover {
+    background-color: #0056b3;
+}
